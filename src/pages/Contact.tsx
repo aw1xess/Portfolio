@@ -1,4 +1,3 @@
-import React from "react";
 import styled, { keyframes } from "styled-components";
 import email from "../assets/icons/email.png";
 import telegram from "../assets/icons/telegram.png";
