@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 	width: 100%;
 	height: 100%;
 	border: 1px solid #fff;
-	padding: max(10px, 2vmin) max(10px, 3vmin);
+	padding: max(10px, 2vmin) max(10px, 3vmin) max(10px, 3vmin) max(10px, 3vmin);
 	display: grid;
 	grid-template-rows: 4em auto;
 	grid-template-columns: 2fr 1fr;
