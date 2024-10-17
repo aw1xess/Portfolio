@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 type ProjectInfo = {
+    likewise: string;
     MyWeather: string;
     "Gym App": string;
     "To-Do List": string;
@@ -9,6 +10,7 @@ type ProjectInfo = {
 };
 
 const projectInfo: ProjectInfo = {
+    likewise: "Coming Soon",
     MyWeather:
         "React, TypeScript, Sass, Redux Toolkit, OpenWeatherMap API, Swiper",
     "Gym App": "React, ReactDnD, React Router, MongoDB, MongoDB Realm",
@@ -116,7 +118,7 @@ const Project = ({
 }: {
     name: string;
     bg_color: string;
-    link: string;
+    link?: string;
     color?: string;
 }) => {
     return (
@@ -136,12 +138,14 @@ const Project = ({
                         Visit
                     </a>
                 </VisitButton>
-            ) : (
+            ) : link ? (
                 <VisitButton>
                     <a href={link} target="_blank">
                         Visit
                     </a>
                 </VisitButton>
+            ) : (
+                <></>
             )}
         </Item>
     );
