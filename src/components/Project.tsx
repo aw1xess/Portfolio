@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type ProjectInfo = {
-    likewise: string;
+    "likewise.": string;
     MyWeather: string;
     "Gym App": string;
     "To-Do List": string;
@@ -10,7 +10,7 @@ type ProjectInfo = {
 };
 
 const projectInfo: ProjectInfo = {
-    likewise: "Coming Soon",
+    "likewise.": "Coming Soon",
     MyWeather:
         "React, TypeScript, Sass, Redux Toolkit, OpenWeatherMap API, Swiper",
     "Gym App": "React, ReactDnD, React Router, MongoDB, MongoDB Realm",
