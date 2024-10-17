@@ -43,7 +43,7 @@ const Container = styled.div`
 const Projects = () => {
     return (
         <Container>
-            <Project name="likewise" bg_color="#191919" />
+            <Project name="likewise." bg_color="#191919" />
             <Project
                 name="MyWeather"
                 bg_color="linear-gradient(45deg,#000436,#000214)"
